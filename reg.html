@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration</title>
+  </head>
+  <style>
+    .main {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin: auto;
+    }
+    .left {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .right {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    select {
+      width: 80%;
+      margin: auto;
+    }
+    .mhe {
+      width: 80%;
+      height: 4vh;
+      margin: auto;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+      outline: 1px black solid;
+    }
+    .mhel {
+      width: 50%;
+      height: 5vh;
+      border-radius: 5px;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    .one {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .ref {
+      margin: auto;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+      background-color: rgb(169, 39, 174);
+      padding: 10px;
+    }
+    a {
+      margin-left: 10px;
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Login</a>
+        <a href="reg.html">Registration</a>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div class="main">
+        <div class="left">
+          <input class="mhe" type="text" placeholder="First Name" />
+          <input class="mhe" type="tel" placeholder="Phone Number" />
+          <input class="mhe" type="text" placeholder="Country" />
+          <input
+            class="mhe"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+          <input class="mhe" type="password" placeholder="password" />
+        </div>
+        <div class="right">
+          <input class="mhe" type="text" placeholder="Last Name" />
+          <select class="mhe" name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <input
+            class="mhe"
+            type="text"
+            name="state"
+            id="state"
+            placeholder="state"
+          />
+          <input class="mhe" type="email" placeholder="confirm Email" />
+          <input class="mhe" type="password" placeholder="comfirm password" />
+        </div>
+      </div>
+      <div class="one">
+        <input class="mhel" type="submit" />
+        <a class="ref" href="index.html">Already have an account? Login </a>
+      </div>
+    </main>
+  </body>
+</html>

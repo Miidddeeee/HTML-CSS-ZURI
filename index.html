@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html css doc</title>
+  </head>
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: 50%;
+    }
+    .login {
+      display: flex;
+      margin: auto;
+    }
+    input {
+      height: 3vh;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+    .she {
+      height: 5vh;
+    }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      background-color: rgb(169, 39, 174);
+      padding: 10px;
+    }
+    a {
+      margin-left: 10px;
+      text-decoration: none;
+      color: black;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Login</a>
+        <a href="reg.html">Registration</a>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div class="login">
+        <form action="">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <input class="she" type="submit" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
